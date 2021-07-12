@@ -36,6 +36,11 @@ img {
     margin-top: 10px;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
 footer {
     margin-left: 10px;
     text-align: center;
