@@ -36,9 +36,16 @@ img {
     margin-top: 10px;
 }
 
+article {
+    border: 1px solid;
+    background-color: rgb(65, 65, 65);
+    margin-top: -5px;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 table,
