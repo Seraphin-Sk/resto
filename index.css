@@ -8,10 +8,10 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 nav,
