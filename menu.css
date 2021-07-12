@@ -41,6 +41,18 @@ h2 {
     margin-bottom: 10px;
 }
 
+table,
+tr,
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: brown;
+}
+
 footer {
     margin-left: 10px;
     text-align: center;
