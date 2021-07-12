@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Un text décrivant notre restaurant">
+    <link rel="stylesheet" text="text/css" href="contact.css">
     <title>Mon restaurant, content</title>
 </head>
 
@@ -18,28 +19,28 @@
         <img src="img/contact.jpg" alt="aile de la liberte" width="1270" height="500">
     </header>
     <section>
-        <h2>Où nous trouver</h2>
+        <h2>Où nous trouver</h2><br>
         <p>
             128 rue de démonstration <br> 34000 Montpellier <br> France <br>
-        </p>
+        </p><br>
 
-        <h2>Nous envoyer un Email</h2>
+        <h2>Nous envoyer un Email</h2><br>
         <form action="contact.html"></form>
-        <div>
-            <label for="email">Votre email</label>
+        <div class="mail">
+            <label for="email">Votre email :</label>
             <input type="email" required id="mail" name="email" placeholder="seraphinsk@gmail.com">
-        </div>
+        </div><br>
         <div>
-            <label for="firstname">Votre prénom</label>
+            <label for="firstname">Votre prénom :</label>
             <input type="text" required id="firstname" name="firstname">
         </div>
-        <div>
+        <div><br>
             <label for="firstname">Message</label>
-            <textarea required id="message" name="message"></textarea>
-        </div>
+            <textarea required id="message" name="message" placeholder="saisissez votre message"></textarea>
+        </div><br>
         <button type="submit">Envoyer votre email</button>
 
-    </section>
+    </section><br>
     <footer>
         <address>128 rue de démonstration</address>
     </footer>
