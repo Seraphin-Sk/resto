@@ -33,15 +33,22 @@ a:hover {
 img {
     width: 1280px;
     height: 500px;
+    margin-top: 10px;
 }
 
 article,
 h2,
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
 }
 
 h2:hover {
     color: black;
     text-decoration: underline
+}
+
+footer {
+    margin-left: 10px;
+    text-align: center;
 }
